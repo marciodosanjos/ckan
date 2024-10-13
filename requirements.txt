@@ -167,5 +167,7 @@ zipp==3.19.2
 zope-interface==6.4.post2
     # via -r requirements.in
 
+gunicorn==20.1.0
+
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
