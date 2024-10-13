@@ -6,6 +6,6 @@ ENV REDIS_URL="rediss://red-cs5s4ktumphs73b1qhag:THygaZO0IworxpGJLghBC4L5RRJpWAN
 ENV SOLR_URL="http://my-solr-app-1e354246a8a9.herokuapp.com/solr"
 
 # Comando para iniciar a aplicação
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "wsgi:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "wsgi:application"]
 
 # Outros comandos que você precisa, como instalação de dependências
